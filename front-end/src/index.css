@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #001f3f;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .register {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .img1 img {
+    padding: 0.5rem !important;
+    height: 30rem !important;
+    width: 23.5rem !important;
+  }
+}
+
+/* .footer ul li {
+  list-style: none !important;
+}
+.footer ul li a {
+  text-decoration: none !important;
+  color: rgba(0, 0, 0, 0.84);
+} */
+
+/* card */
+
+/* @media only screen and (max-width: 767px) {
+  .cards {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-bottom: 2rem !important;
+  }
+  .inputs {
+    position: relative !important;
+    right: 1rem !important;
+  }
+  .card {
+    margin-top: 2rem !important;
+  }
+  .footers {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .footer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: auto !important;
+    justify-content: flex-start;
+  }
+} */
+
+/* fro dashboard */
+
+.vl {
+  border-left: 2px solid green;
+  height: 100vh;
+  margin-left: 5rem;
+}
+
+.icons {
+  margin-right: 1rem;
+  width: 20rem;
+}
+
+.username {
+  margin-top: 25rem;
+}
+
+.actives button {
+  border: none !important;
+  background-color: white !important;
+}
+
+.sidebar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  z-index: 1000 !important;
+  overflow-y: auto !important;
+
+  width: 100% !important;
+
+  max-width: 250px !important; /* Adjust width as needed */
+
+  /* Adjust background color as needed */
+}
+.card {
+  margin-top: 1rem !important;
+}
+.status {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 1rem;
+  overflow-y: hidden !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  width: 52.5rem !important;
+}
+
+.status::-webkit-scrollbar {
+  scrollbar-width: none !important;
+}
+
+.status img {
+  border-radius: 50% !important;
+  height: 10vh;
+}
+
+.form input {
+  border-radius: 0.5rem !important;
+  width: 50% !important;
+  border: none !important;
+  padding: 0.5rem;
+}
+.form button {
+  padding: 0.5rem;
+  width: 5rem;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 255, 0.737) !important;
+  color: white;
+  font-weight: bold;
+}
+.logoutBtn {
+  background-color: #001f3f;
+  border: none;
+  color: white;
+}
+/* dashboard */
+
+/* @media only screen and (max-width: 768px) {
+  .section {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    flex-wrap: wrap !important;
+  }
+  .vl {
+    display: none !important;
+  }
+  .username {
+    margin-top: -29rem !important;
+  }
+  .sidebar {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 1rem !important;
+    /* background-color: white !important; */
+/* position: fixed !important; */
+/* top: 35rem !important; */
+
+/* padding: 10px;
+  }
+  span {
+    display: none !important;
+  }
+}  */
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 767px) {
+  .section {
+    flex-direction: column-reverse !important;
+  }
+  .status {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 1rem;
+    z-index: 1000 !important;
+    overflow-y: auto !important;
+    width: 22rem !important;
+    margin-top: -4rem;
+    /* background-color: #333 !important; */
+  }
+
+  .sidebar {
+    display: flex !important;
+    flex-direction: row !important;
+    position: fixed !important;
+    top: 33.9rem !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    z-index: 1000 !important;
+    overflow-y: auto !important;
+    width: 100% !important;
+    height: 4rem !important;
+    max-width: 250px !important; /* Adjust width as needed */
+    padding: 20px !important;
+    background-color: #333 !important; /* Adjust background color as needed */
+    border-radius: 10px !important;
+  }
+
+  .posts {
+    margin-left: 0 !important;
+    margin-top: 5rem !important;
+    width: 100% !important;
+    padding: 0.5rem !important;
+  }
+  .username {
+    margin-top: 2px !important;
+    width: 100% !important;
+    text-align: center !important; /* Center the username */
+  }
+  span {
+    display: none;
+  }
+  .vl {
+    display: none;
+  }
+}
+
+/* for profile */
+
+.profile-container {
+  margin-top: 13rem !important;
+  border: 1px solid black;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  height: 10rem;
+}
+
+.profile {
+  width: 100% !important;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.inputes input {
+  width: 50% !important;
+  border-radius: 0.5rem;
+}
+
+.caneraIcon {
+  border: 2px dotted black;
+
+  border-radius: 50%;
+  height: 2rem !important;
+  width: 2rem !important;
+}
+
+.createPost {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  margin-top: 7rem !important;
+  border: 1px solid black !important;
+  width: 50%;
+  margin: auto;
+}
+
+.post-img img {
+  border-radius: 50% !important;
+  border: 2px dotted black !important;
+  height: 200px !important;
+  width: 200px !important;
+  object-fit: cover !important;
+}

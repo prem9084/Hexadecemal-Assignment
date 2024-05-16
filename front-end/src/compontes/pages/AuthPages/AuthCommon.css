@@ -1,0 +1,12 @@
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .register {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .img1 img {
+    width: 25rem !important;
+    height: 40rem !important;
+    /* margin-left: auto !important; */
+    padding: 1rem !important;
+  }
+}
